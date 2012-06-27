@@ -1,24 +1,27 @@
 {
-  "name": "jQuery",
-  "description": "jQuery: The Write Less, Do More, JavaScript Library (packaged for Node.JS)",
+  "name": "jquery-node-browserify",
+  "description": "jQuery: The Write Less, Do More, JavaScript Library (packaged for Node.JS and Browserify)",
   "version": "1.7.2",
   "url": "http://jquery.com",
-  "homepage": "https://github.com/coolaj86/node-jquery",
+  "homepage": "https://github.com/bpartridge/jquery-node-browserify",
   "author": {
     "name": "James Morrin",
     "email": "treasonx@gmail.com"
   },
+  "contributors": [
+    "Brenton Partridge <bapartridge@gmail.com>"
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/coolaj86/node-jquery.git"
+    "url": "git://github.com/bpartridge/jquery-node-browserify.git"
   },
   "bugs": {
-    "url": "https://github.com/coolaj86/node-jquery/issues"
+    "url": "https://github.com/bpartridge/jquery-node-browserify/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/coolaj86/node-jquery/blob/master/LICENSE-MIT"
+      "url": "https://github.com/bpartridge/jquery-node-browserify/blob/master/LICENSE-MIT"
     }
   ],
   "main": "lib/node-jquery",
