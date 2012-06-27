@@ -29,7 +29,7 @@
     "node": "0.6"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test && mkdir -p tmp && browserify -e entry.js -o tmp/browserified.js"
   },
   "dependencies": {
     "jsdom": "~0.2.14",
@@ -40,7 +40,8 @@
   },
   "devDependencies": {
     "grunt": "~0.3.8",
-    "nodeunit": "~0.7.4"
+    "nodeunit": "~0.7.4",
+    "browserify": "*"
   },
   "keywords": [
     "util",
