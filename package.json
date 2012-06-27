@@ -4,11 +4,9 @@
   "version": "1.7.2",
   "url": "http://jquery.com",
   "homepage": "https://github.com/bpartridge/jquery-node-browserify",
-  "author": {
-    "name": "James Morrin",
-    "email": "treasonx@gmail.com"
-  },
+  "author": "Brenton Partridge <bapartridge@gmail.com>",
   "contributors": [
+    "James Morrin <treasonx@gmail.com>",
     "Brenton Partridge <bapartridge@gmail.com>"
   ],
   "repository": {
