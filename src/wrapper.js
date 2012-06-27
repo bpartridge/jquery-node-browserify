@@ -1,6 +1,6 @@
 (function () {
 function create(window) {
-  window = window || require('jsdom').jsdom().createWindow();
+  window = window || eval("require('js"+"dom')").jsdom().createWindow();
   
   // assume window is a jsdom instance...
   // jsdom includes an incomplete version of XMLHttpRequest
